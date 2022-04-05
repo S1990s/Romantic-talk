@@ -1,0 +1,10 @@
+// Example project-level settings.gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        // ... other project repositories
+        maven {
+            url "https://artifactory.appodeal.com/appodeal"
+        }
+    }
+}
